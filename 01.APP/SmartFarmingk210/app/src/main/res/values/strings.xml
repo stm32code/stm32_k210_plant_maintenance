@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">多功能植物养护</string>
+    <string name="debug">调试</string>
+    <string name="history">记录</string>
+    <string name="temp">温度</string>
+    <string name="humi">湿度</string>
+    <string name="somg">烟雾</string>
+</resources>

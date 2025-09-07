@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listviewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/date_text_background"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_weight="1"
+        android:text="wait"
+        android:textSize="17sp" />
+
+    <TableRow android:layout_margin="10dp">
+
+        <TextView android:text="温度：" />
+
+        <TextView
+            android:id="@+id/tempText"
+            android:layout_weight="1"
+            android:text="wait" />
+
+        <TextView android:text="湿度：" />
+
+        <TextView
+            android:id="@+id/humiText"
+            android:layout_weight="1"
+            android:text="wait" />
+    </TableRow>
+
+    <TableRow android:layout_margin="10dp">
+
+        <TextView android:text="光照强度：" />
+
+        <TextView
+            android:id="@+id/lightText"
+            android:layout_weight="1"
+            android:text="wait" />
+    </TableRow>
+</TableLayout>
